@@ -2,6 +2,7 @@ body
 {
     background-color: black; 
     font-family: 'Bahiana', cursive;
+    font-size: 20px;
 }
 
 #header
@@ -92,4 +93,10 @@ body
 #digipakpic
 {
     padding: 10px;
+}
+
+.card
+{
+    background: black;
+    color: white;
 }
