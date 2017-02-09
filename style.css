@@ -1,6 +1,7 @@
 body
 {
     background-color: black; 
+    font-family: 'Bahiana', cursive;
 }
 
 #header
@@ -22,6 +23,7 @@ body
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 #headertext h1
@@ -38,8 +40,56 @@ body
 
 #content
 {
-    background-color: white;
+    height: 100vh;
+    background: url(fairy.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
     top: 100vh;
     position: absolute;
     width: 100%;
+}
+
+#card1 
+{
+    float: left;
+    width: 49%;
+ 
+}
+#card3 
+{
+    float: left;
+    width: 49%;
+    height: 33%
+
+}
+
+#card2 
+{
+    position: relative;
+    float: right;
+    width: 49%;
+}
+
+
+#row1 #col1 
+{
+
+    width: 100%;
+}
+
+.card-title
+{
+    padding-left: 10px;
+}
+
+#video
+{
+    height: 350px;
+}
+
+#digipakpic
+{
+    padding: 10px;
 }

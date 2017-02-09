@@ -6,17 +6,71 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
         <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css?family=Bahiana" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+                  });
+                } // End if
+          });
+        });
+        </script>
     </head>
     <body>
         <div id='container'>
             <div id='header'>
                 <div id="headertext">
                     <h1>Good Man</h1>
-                    <p>Digipack in stores now</p>
+                    <p>Single in stores now</p>
                     <a class="waves-effect waves-light btn-large" id="readmore" href="#content">Read More</a>
                 </div>
                 <div id="content">
-                     
+                    <div class="row" id="row1">
+                        <div class="col s12 m7" id="col1">
+                            <div class="card" id="card1">
+                                <span class="card-title">Watch the video</span>
+                                <div class="card-image" id="video">
+                                    <center><iframe width="95%" height="95%" src="https://www.youtube.com/embed/q3j_lFGZOPg" frameborder="0" allowfullscreen></iframe></center>     
+                                </div>
+                            </div>
+                            <div class="card" id="card2">
+                                <span class="card-title">Buy the single</span>
+                                <div class="card-image">
+                                    <img id="digipakpic" src="./digipak.jpg" />
+                                </div>
+                                <div class="card-content">
+                                    <p>Click below to buy the single on CD</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Buy Now</a>
+                                </div>
+                            </div>
+                             <div class="card" id="card3">
+                                <span class="card-title">Download</span>
+                                <div class="card-image" id="video">
+                                    <!--<center><iframe width="95%" height="95%" src="https://www.youtube.com/embed/q3j_lFGZOPg" frameborder="0" allowfullscreen></iframe></center>-->     
+                                </div>
+                        </div>
+                    </div>     
                 </div>
             </div>
         </div>
