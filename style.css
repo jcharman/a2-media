@@ -70,7 +70,7 @@ body
 #newsbio
 {
     height: 100vh;
-    background: white;
+    background: url(lanterns.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -147,4 +147,9 @@ footer
     bottom: 0;
     padding: 10px;
     clear: both;
+}
+
+#header a
+{
+    color: black; 
 }
