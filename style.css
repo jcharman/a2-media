@@ -50,7 +50,6 @@ body
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    
     width: 100%;
     clear: both;
     position: relative;
@@ -65,9 +64,21 @@ body
     background-position-x: center;
     background-position-y: center;
     width: 100%;
-    clear: both;
     position: relative;
 }
+
+#newsbio
+{
+    height: 100vh;
+    background: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: 100%;
+    position: relative;
+}
+
 
 #card1 
 {
@@ -119,6 +130,12 @@ body
 }
 
 #col2
+{
+    padding: 10px;
+    
+}
+
+#col3
 {
     padding: 10px;
     
