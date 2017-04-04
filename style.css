@@ -1,10 +1,19 @@
 body
 {
     background-color: black; 
-    font-family: 'Bahiana', cursive;
     font-size: 20px;
     margin: 0;
     padding: 0;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: 'Bahiana', cursive;
+}
+
+p, a
+{    
+    font-family: 'Exo 2', sans-serif;
 }
 
 #header
