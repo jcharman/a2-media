@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5
     font-family: 'Bahiana', cursive;
 }
 
-p, a:not(#headertext)
+p:not(#headertext)
 {    
     font-family: 'Exo 2', sans-serif;
 }
