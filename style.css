@@ -11,11 +11,6 @@ h1, h2, h3, h4, h5
     font-family: 'Bahiana', cursive;
 }
 
-.card-title
-{
-    font-family: 'Bahiana', cursive;
-}
-
 p, a
 {    
     font-family: 'Exo 2', sans-serif;
@@ -125,6 +120,7 @@ p, a
 .card-title
 {
     padding-left: 10px;
+    font-family: 'Bahiana', cursive;
 }
 
 #video
