@@ -11,7 +11,10 @@ h1, h2, h3, h4, h5
     font-family: 'Bahiana', cursive;
 }
 
-
+p, a:not(#headertext)
+{    
+    font-family: 'Exo 2', sans-serif;
+}
 
 #header
 {
@@ -34,11 +37,6 @@ h1, h2, h3, h4, h5
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Bahiana', cursive; !important
-}
-
-p, a
-{    
-    font-family: 'Exo 2', sans-serif;
 }
 
 #headertext h1
