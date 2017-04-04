@@ -41,7 +41,7 @@ p, a
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Bahiana', cursive; !important
+    font-family: 'Bahiana', cursive;
 }
 
 #headertext h1
